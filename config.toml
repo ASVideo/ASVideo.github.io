@@ -1,0 +1,77 @@
+baseURL = 'https://ASVideo.github.io/'
+languageCode = 'zh-tw'
+defaultContentLanguage = "zh-tw"
+theme = "hugo-theme-relearn"
+title = 'Academia Sinica Video Archive'
+
+metaDataFormat = "yaml"
+# required for official documentation served from subfolder
+relativeURLs = false
+defaultContentLanguageInSubdir= false
+
+[Params]
+  editURL = "https://github.com/ASVideo/ASVideo.github.io/tree/main/content/"
+  description = "AIGC-based Video Archive @ Academia Sinica"
+  author = "Ling-Jyh Chen"
+  showVisitedLinks = true
+  #collapsibleMenu = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableSeoHiddenPages = true
+  disableMermaid = false
+  #customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  level = "levels"
+  author = "authors"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+
+[Languages]
+[Languages.zh-tw]
+title = "科普影音資料庫"
+weight = 1
+languageName = "中文"
+landingPageURL = "/"
+landingPageName = "<i class='fas fa-home'></i> 首頁"
+
+[[Languages.zh-tw.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/ASVideo/ASVideo.github.io"
+weight = 10
+
+
+[Languages.en]
+title = "Academia Sinica Popular Science Video Archive"
+weight = 2
+languageName = "English"
+landingPageURL = "/"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/ASVideo/ASVideo.github.io"
+weight = 10
+
+[Languages.ja]
+title = "中央研究院の人気科学視聴覚データベース"
+weight = 3
+languageName = "日本語"
+landingPageURL = "/"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
+[[Languages.ja.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/ASVideo/ASVideo.github.io"
+weight = 10
+

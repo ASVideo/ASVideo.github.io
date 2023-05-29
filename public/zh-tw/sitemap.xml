@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ASVideo.github.io/authors/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ASVideo.github.io/authors/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ASVideo.github.io/authors/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ASVideo.github.io/en/authors/index.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/authors/index.html" />
+  </url>
+  <url>
+    <loc>https://ASVideo.github.io/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ASVideo.github.io/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ASVideo.github.io/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ASVideo.github.io/en/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/categories/index.html" />
+  </url>
+  <url>
+    <loc>https://ASVideo.github.io/levels/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ASVideo.github.io/levels/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ASVideo.github.io/levels/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ASVideo.github.io/en/levels/index.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/levels/index.html" />
+  </url>
+  <url>
+    <loc>https://ASVideo.github.io/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ASVideo.github.io/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ASVideo.github.io/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ASVideo.github.io/en/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/tags/index.html" />
+  </url>
+  <url>
+    <loc>https://ASVideo.github.io/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ASVideo.github.io/index.html" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ASVideo.github.io/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ASVideo.github.io/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/index.html" />
+  </url>
+</urlset>
