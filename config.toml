@@ -1,6 +1,6 @@
 baseURL = 'https://ASVideo.github.io/'
-languageCode = 'zh-tw'
-defaultContentLanguage = "zh-tw"
+languageCode = 'zh'
+defaultContentLanguage = "zh"
 theme = "hugo-theme-relearn"
 title = 'Academia Sinica Video Archive'
 
