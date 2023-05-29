@@ -1,6 +1,6 @@
 baseURL = 'https://ASVideo.github.io/'
-languageCode = 'zh'
-defaultContentLanguage = "zh"
+languageCode = 'zh-tw'
+defaultContentLanguage = "zh-tw"
 theme = "hugo-theme-relearn"
 title = 'Academia Sinica Video Archive'
 
@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir= false
   disableLanguageSwitchingButton = false
   disableSeoHiddenPages = false
   disableMermaid = false
-  additionalContentLanguage = [ "en", "zh"]
+  additionalContentLanguage = [ "en", "zh-tw"]
   #customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   titleSeparator = "::"
 
