@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -7,12 +7,12 @@
     <meta name="generator" content="Relearn 5.15.1+tip">
     <meta name="description" content="AIGC-based Video Archive @ Academia Sinica">
     <meta name="author" content="Ling-Jyh Chen">
-    <title>2017 :: 中央研究院の人気科学視聴覚データベース</title>
-    <link href="https://ASVideo.github.io/2017/index.html" rel="alternate" hreflang="x-default">
-    <link href="https://ASVideo.github.io/2017/index.html" rel="alternate" hreflang="zh-tw">
-    <link href="https://ASVideo.github.io/en/2017/index.html" rel="alternate" hreflang="en">
-    <link href="https://ASVideo.github.io/ja/2017/index.html" rel="alternate" hreflang="ja">
-    <link href="/ja/2017/index.xml" rel="alternate" type="application/rss+xml" title="2017 :: 中央研究院の人気科学視聴覚データベース">
+    <title>Search :: Academia Sinica Popular Science Video Archive</title>
+    <link href="https://ASVideo.github.io/search.html" rel="alternate" hreflang="x-default">
+    <link href="https://ASVideo.github.io/search.html" rel="alternate" hreflang="zh-tw">
+    <link href="https://ASVideo.github.io/en/search.html" rel="alternate" hreflang="en">
+    <link href="https://ASVideo.github.io/ja/search.html" rel="alternate" hreflang="ja">
+    <link href="https://ASVideo.github.io/en/search.html" rel="canonical" type="text/html" title="Search :: Academia Sinica Popular Science Video Archive">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1685374210" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1685374210" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1685374210" rel="stylesheet">
@@ -29,23 +29,23 @@
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      window.index_json_url="/ja/index.json";
-      window.index_js_url="/ja/index.search.js";
+      window.index_json_url="/en/index.json";
+      window.index_js_url="/en/index.search.js";
       var root_url="/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
-      window.T_Copy_to_clipboard = 'クリップボードにコピー';
-      window.T_Copied_to_clipboard = 'クリップボードにコピー!';
-      window.T_Copy_link_to_clipboard = 'リンクをクリップボードにコピー';
-      window.T_Link_copied_to_clipboard = 'リンクをクリップボードにコピーしました!';
-      window.T_No_results_found = '\u0022{0}\u0022 の結果が見つかりません';
-      window.T_N_results_found = '\u0022{0}\u0022 で {1} 件の結果が見つかりました';
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='https:\/\/ASVideo.github.io/';
       window.variants && variants.init( [ 'auto' ] );
     </script>
   </head>
-  <body class="mobile-support html" data-url="/ja/2017/index.html">
+  <body class="mobile-support searchpage" data-url="/en/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -55,51 +55,44 @@
             <span class="nav nav-next topbar-link"><i class="fa fa-chevron-right fa-fw"></i></span>
           </div>
           <div class="navigation">
-            <a class="nav nav-prev topbar-link" href="/ja/2018/index.html" title="2018 (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
-          </div>
-          <div id="top-github-link">
-            <a class="github-link topbar-link" title='編集 (CTRL+ALT+w)' href="https://github.com/ASVideo/ASVideo.github.io/tree/main/content/2017/_index.ja.md" target="_blank">
-              <i class="fas fa-pen fa-fw"></i>
-            </a>
+            <a class="nav nav-prev topbar-link" href="/en/index.html" title="Popular Science Video Archive (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
-              <a href="#" id="sidebar-toggle" class="topbar-link" title='メニュー (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/ja/index.html"><span itemprop="name">Popular Science Video Archive</span></a><meta itemprop="position" content="1"> &gt; </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">2017</span><meta itemprop="position" content="2"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Popular Science Video Archive</span><meta itemprop="position" content="1"></li>
             </ol>
           </div>
         </div>
       </nav>
-      <main id="body-inner" class="highlightable chapter narrow" tabindex="-1">
+      <main id="body-inner" class="highlightable home" tabindex="-1">
         <div class="flex-block-wrapper">
-          <article class="chapter deprecated">
+          <article class="default">
             <header class="headline">
             </header>
+            <h1 id="search">Search</h1>
 
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/z1fV8YXu0WE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p>このイベントの講演者は、情報社会におけるプライバシーとプライバシーの権利の問題について議論し、台湾の伝統建築とイタリアのフィレンツェ美術館を例として用いて、社会のさまざまな時期におけるプライバシーの概念の理解と変化を説明します。この映画では、さまざまな地域におけるプライバシーの翻訳の違いを比較し、プライバシーの空間的および法的側面を掘り下げています。講演者は、現代のプライバシーの概念は個人の物や空間を保護することだけではなく、他の意味も含んでいることを強調しました。同時に、報道という文化的現象がプライバシー問題に関連していることを指摘し、各国におけるプライバシー保護のさまざまな展開について論じています。また、情報化社会においては、携帯電話やアプリの利用により個人情報の漏洩につながる可能性があり、注意が必要であると強調されています。このビデオでは、現代社会におけるプライバシーの重要性とそれを保護する方法について説明します。ビッグデータやAIなどのデジタル技術によってもたらされる個人データ収集の問題に直面し、個人プライバシーに対する企業の透明性の保護を強調している。議論されたトピックには、顔認識技術、遺伝子認識、メディアの変化、ドライブレコーダーなどが含まれ、情報の自由な流れと個人のプライバシーの保護のバランスについて説明されました。講演者は、科学技術の発展に伴い個人のプライバシーの保護が特に重要であることを強調し、実証研究による社会規範の決定やユーザー情報の所在への配慮を求めた。モノのインターネットの時代には、プライバシーの概念が変わる可能性があり、さまざまな利益の間でバランスを取る必要があります。最後に、講演者は、合理的な解決策を見つけるために、全員で議論し議論するべきだと提案しました。 、</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/lhxWE6b0Cpo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p>この知識の饗宴では、情報科学研究所所長の徐文蓮博士が招待され、人工知能分野における研究内容と応用について紹介されました。ホイ博士は、人工知能は深層学習の発展により、特に音声認識と自然言語理解において多くの進歩を遂げたと述べた。しかし、自然言語の理解は人工知能の最後のハードルと考えられており、コンピューターはまだ人間の言語を完全には理解していません。スー博士は、機械翻訳と言語理解の課題に言及し、懐疑と謙虚さを強調しました。さらに、IoT アプリケーションは生活の利便性を向上させますが、ロボットは顧客サービスなどの分野で依然として課題に直面しています。このビデオでは、音声認識の精度を向上させるためのパターン マッチング (パターン マッチング) の概念を提案し、深セン分業がコンピューターに専門用語を理解し、非標準的な文法の問題に対処する方法をどのように教えているかを紹介します。この映画では、スペル チェッカー、質問の自動応答などの言語現象の応用を探ります。さらに、メールの自動分類と返信、自動採点システムなどのインテリジェントなエージェント アプリケーションも導入されています。この映画では主に、効率の向上とレビューコストの削減という観点から、生活や仕事におけるコンピュータの応用について語っています。しかし、機械が小説や歌などの想像力豊かな作品を作成するには、依然として一定の障害があります。この映画では、古代の書籍を整理し構造化するためにテクノロジーをどのように使用できるかについても説明しています。最後にデータベース構築と研究資金の問題について言及した。人間の創造性は科学の発展において極めて重要ですが、AI が創造性を学習できるかどうかについては、依然として議論の余地があります。数学ではコンピューターに証明を実行させる実験が進行中である一方、ウェブ上のデータは分析やパーソナライズされた広告に使用される可能性があります。将来のデータの使用の可能性とセキュリティには依然として懸念が残っています。 、</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/w65c-LYJqac" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p>国立台湾大学文学部を卒業した胡振真監督は、講演の中で清朝の女性小説に関する研究を紹介し、古代文学における女性の地位について論じた。李青照を例に挙げると、彼女は当時の女性に対する期待や制限に挑戦することができ、後の世代の女性文人に影響を与えました。陳端生などの明清時代の女性作家は、繊細なスタイルと複雑なプロットを備えたタンシ小説を創作し、女性により創造的な余地を与えました。しかし、これらの女性作家たちは依然として家族や社会の期待や制約と格闘していました。 『再生』や『侯志』などの作品に登場する女性キャラクターとその心理を分析し、女性作家が女性心理をどのように繊細な描写で表現しているのかを探る。最後に映画では、女性作家梁徳深が陳端生の未完の小説を完成させた際、女性の視点から自身の繊細な内面を表現したことが語られる。この映画は、古代の女性詩小説におけるジェンダー問題と同性愛的要素を探求しています。 「美聖花」と李貴宇の「流花夢」は、困難に直面する女性の合理性と未来に向かうために仮面をかぶる現象を描き、女性の結婚に対する無関心を感情表現で表現している。物語に登場するヒロインたちは、愛と友情のため、男装して戦場で助け合います。女性の女装シーンを通じて、当時の社会的文脈の中で同性愛関係が強調され、現在のゲイ文学とゲイの感情の議論への道が開かれました。この映画では、女性向け小説の保存プロセスや、古文書における性自認の問題の表現についても探求しています。講演者は、同性愛と性自認は別々に議論する必要があると強調し、胡主任の詳細な説明により聴衆はこれらの問題についてよりよく理解できたと感謝した。 、</p>
+            <form action="javascript:triggerSearch()">
+              <div class="searchform">
+                <label class="a11y-only" for="search-by-detail">Search</label>
+                <input data-search-input id="search-by-detail" class="search-by" name="search-by" type="search" placeholder="Search...">
+<span class="btn cstyle secondary">
+  <button type="submit">
+    <i class="fa-fw fas fa-search"></i> 
+    Search
+  </button>
+</span>
+              </div>
+            </form>
+            <div class="searchhint">
+            </div>
+            <hr>
+            <div id="searchresults">
+            </div>
 
             <footer class="footline">
-
             </footer>
           </article>
         </div>
@@ -164,7 +157,7 @@
               }
             }
           </style>
-          <a id="logo" href="/ja/index.html">
+          <a id="logo" href="/en/index.html">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.044 64.044">
               <path d="M46.103 136.34c-.642-.394-1.222-2.242-1.98-2.358-.76-.117-1.353.506-1.618 1.519-.266 1.012-.446 4.188.173 5.538.213.435.482.787 1.03.845.547.057.967-.504 1.45-1.027.482-.523.437-.9 1.142-.612.705.289 1.051.4 1.586 1.229.535.828 1.085 4.043.868 5.598-.241 1.458-.531 2.8-.59 4.088.26.075.517.148.772.217 2.68.724 5.373 1.037 7.873.02.001-.028.01-.105.008-.11-.048-.165-.18-.41-.36-.698-.18-.29-.414-.645-.586-1.114a3.212 3.212 0 0 1-.125-1.735c.056-.21.153-.342.249-.475 1.237-1.193 2.932-1.373 4.244-1.384.557-.004 1.389.016 2.198.255.809.239 1.706.724 2.068 1.843.187.578.114 1.17-.043 1.623-.153.438-.369.783-.545 1.091-.178.31-.329.6-.401.821-.007.02-.003.071-.005.094 2.256 1.008 4.716.91 7.189.398.55-.114 1.11-.247 1.673-.377.344-1.085.678-2.145.852-3.208.124-.752.158-2.311-.078-3.538-.118-.613-.306-1.15-.52-1.489-.221-.349-.413-.501-.747-.538-.243-.027-.51.013-.796.098-.67.223-1.33.606-1.966.76l-.008.002-.109.032c-.556.152-1.233.158-1.797-.36-.556-.51-.89-1.367-1.117-2.596-.283-1.528-.075-3.279.89-4.518l.071-.09h.07c.65-.71 1.485-.802 2.16-.599.706.213 1.333.629 1.772.84.736.354 1.185.319 1.475.171.291-.148.5-.439.668-.955.332-1.017.301-2.819.022-4.106-.148-.684-.13-1.292-.13-1.883-1.558-.463-3.067-.982-4.574-1.208-1.128-.169-2.263-.173-3.298.164-.13.046-.256.095-.38.15-.373.164-.633.342-.805.52-.077.098-.081.105-.087.21-.004.068.031.289.13.571.1.282.256.634.467 1.03.279.524.448 1.063.431 1.618a2.12 2.12 0 0 1-.499 1.309 1.757 1.757 0 0 1-.62.51h-.002c-.515.291-1.107.404-1.723.464-.86.083-1.787.026-2.598-.097-.806-.123-1.47-.28-1.948-.555-.444-.256-.79-.547-1.037-.925a2.273 2.273 0 0 1-.356-1.301c.029-.837.403-1.437.625-1.897.111-.23.191-.433.236-.583.045-.15.044-.25.046-.24-.005-.029-.127-.355-1.015-.741-1.138-.495-2.322-.673-3.533-.668h-.015a9.711 9.711 0 0 0-.521.016h-.002c-1.163.057-2.35.308-3.541.569.383 1.531.79 2.753.818 4.502-.096 1.297.158 2.114-1.03 2.935-.85.588-1.508.729-2.15.335" style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:1.03763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(-40.698 -95.175)"/>
               <path d="M61.472 101.34v.002c-.3-.003-.603.01-.894.04-.544.055-1.39.165-1.778.306-1.238.364.13 2.344.41 2.913.28.569.285 2.03.14 2.134-.144.103-.375.261-.934.345-.56.084.03-.037-1.589.086-1.62.122-5.506.29-8.265.248-.022.26-.036.521-.097.808-.309 1.442-.63 3.163-.494 4.074.071.473.168.65.414.8.23.14.737.235 1.62-.004.834-.227 1.3-.442 1.887-.456.595-.016 1.555.472 1.965.717.411.245-.03-.008.002 0s.128.05.176.102c.049.053-.276-.523.104.199.379.721.72 3.256.002 4.68-.46.913-1.01 1.49-1.64 1.711-.63.22-1.229.067-1.734-.135-.881-.353-1.584-.7-2.205-.647-1.199 1.94-1.186 4.17-.6 6.602.097.397.212.814.327 1.23 2.68-.556 5.542-1.016 8.337.132 1.064.437 1.73 1.015 1.902 1.857.169.831-.193 1.508-.438 1.986-.122.238-.23.46-.307.642-.07.164-.096.28-.104.324.069.429.309.723.686.945.385.227.89.355 1.35.423.723.104 1.567.152 2.287.086.693-.064 1.032-.338 1.241-.544a2.447 2.447 0 0 0 .303-.437.175.175 0 0 0 .013-.035c-.004-.066-.037-.246-.195-.527-.46-.816-.87-1.595-.817-2.51.028-.476.218-.938.529-1.288.304-.343.698-.586 1.186-.79 1.442-.606 2.96-.609 4.372-.409 1.525.216 2.963.679 4.378 1.083.226-2.09.784-3.9.592-5.77-.058-.565-.287-1.333-.598-1.827-.32-.508-.59-.717-1.036-.642-.648.11-1.472.935-2.707 1.078-.791.092-1.494-.267-1.95-.86-.45-.583-.678-1.335-.78-2.101-.202-1.525.031-3.229.89-4.27.615-.747 1.45-.887 2.15-.74.687.145 1.307.492 1.857.745v-.002c.546.252 1.033.388 1.281.344a.547.547 0 0 0 .353-.188c.113-.124.242-.35.384-.75.604-1.712.206-3.68-.303-5.654-.667.145-1.336.293-2.018.413-1.341.236-2.73.392-4.136.273-.656-.055-1.695-.085-2.58-.476-.442-.195-.903-.514-1.157-1.093-.259-.591-.205-1.313.08-2.014.223-.64 1.082-2.178.692-2.585-.391-.407-1.651-.56-2.554-.571z" style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:.992837;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(-40.698 -95.175)"/>
@@ -175,34 +168,33 @@
           </a>
 
         </div>
-        <form action="/ja/search.html" method="get"><div class="searchbox default-animation">
-          <button type="submit" title="検索 (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
-          <label class="a11y-only" for="search-by">検索</label>
-          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="検索...">
+        <form action="/en/search.html" method="get"><div class="searchbox default-animation">
+          <button type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+          <label class="a11y-only" for="search-by">Search</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
           <span data-search-clear=""><i class="fas fa-times"></i></span>
         </div></form>
         <script>
-          var contentLangs=['ja'];
+          var contentLangs=['en'];
         </script>
         <script src="/js/auto-complete.js?1685374210" defer></script>
         <script src="/js/lunr/lunr.min.js?1685374210" defer></script>
         <script src="/js/lunr/lunr.stemmer.support.min.js?1685374210" defer></script>
         <script src="/js/lunr/lunr.multi.min.js?1685374210" defer></script>
-        <script src="/js/lunr/tinyseg.js?1685374210" defer></script>
-        <script src="/js/lunr/lunr.ja.min.js?1685374210" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1685374210" defer></script>
         <script src="/js/search.js?1685374210" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics enlarge morespace">
-          <li data-nav-id="/ja/2023/index.html" class=""><a class="padding" href="/ja/2023/index.html">2023<i class="fas fa-check read-icon"></i></a></li>
-          <li data-nav-id="/ja/2022/index.html" class=""><a class="padding" href="/ja/2022/index.html">2022<i class="fas fa-check read-icon"></i></a></li>
-          <li data-nav-id="/ja/2021/index.html" class=""><a class="padding" href="/ja/2021/index.html">2021<i class="fas fa-check read-icon"></i></a></li>
-          <li data-nav-id="/ja/2019/index.html" class=""><a class="padding" href="/ja/2019/index.html">2019<i class="fas fa-check read-icon"></i></a></li>
-          <li data-nav-id="/ja/2018/index.html" class=""><a class="padding" href="/ja/2018/index.html">2018<i class="fas fa-check read-icon"></i></a></li>
-          <li data-nav-id="/ja/2017/index.html" class="active"><a class="padding" href="/ja/2017/index.html">2017<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/en/2023/index.html" class=""><a class="padding" href="/en/2023/index.html">2023<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/en/2022/index.html" class=""><a class="padding" href="/en/2022/index.html">2022<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/en/2021/index.html" class=""><a class="padding" href="/en/2021/index.html">2021<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/en/2019/index.html" class=""><a class="padding" href="/en/2019/index.html">2019<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/en/2018/index.html" class=""><a class="padding" href="/en/2018/index.html">2018<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/en/2017/index.html" class=""><a class="padding" href="/en/2017/index.html">2017<i class="fas fa-check read-icon"></i></a></li>
         </ul>
         <div id="shortcuts">
-          <div class="nav-title padding">更に</div>
+          <div class="nav-title padding">More</div>
           <ul class="space">
             <li><a class="padding" href="https://github.com/ASVideo/ASVideo.github.io"><i class='fab fa-fw fa-github'></i> GitHub</a></li>
           </ul>
@@ -216,11 +208,11 @@
                 <i class="fas fa-language fa-fw"></i>
                 <span>&nbsp;</span>
                 <div class="select-style">
-                  <label class="a11y-only" for="select-language">言語</label>
+                  <label class="a11y-only" for="select-language">Language</label>
                   <select id="select-language" onchange="location = baseUri + this.value;">
-                    <option lang="zh-tw" id="zh-tw" value="/2017/index.html">中文</option>
-                    <option lang="en" id="en" value="/en/2017/index.html">English</option>
-                    <option lang="ja" id="ja" value="/ja/2017/index.html" selected>日本語</option>
+                    <option lang="zh-tw" id="zh-tw" value="/search.html">中文</option>
+                    <option lang="en" id="en" value="/en/search.html" selected>English</option>
+                    <option lang="ja" id="ja" value="/ja/search.html">日本語</option>
                   </select>
                 </div>
                 <div class="select-clear"></div>
@@ -231,7 +223,7 @@
                 <i class="fas fa-paint-brush fa-fw"></i>
                 <span>&nbsp;</span>
                 <div class="select-style">
-                  <label class="a11y-only" for="select-variant">テーマ</label>
+                  <label class="a11y-only" for="select-variant">Theme</label>
                   <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
                     <option id="auto" value="auto" selected>Auto</option>
                   </select>
@@ -240,7 +232,7 @@
               </div>
               <script>window.variants && variants.markSelectedVariant();</script>
             </li>
-            <li class="footerVisitedLinks showVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i><span>&nbsp;</span>履歴削除</button></li>
+            <li class="footerVisitedLinks showVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i><span>&nbsp;</span>Clear History</button></li>
           </ul>
         </div>
         <div id="footer" class="footerFooter showFooter">
