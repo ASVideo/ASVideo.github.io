@@ -22,7 +22,6 @@ defaultContentLanguageInSubdir= false
   disableNextPrev = false
   disableLandingPageButton = true
   disableLanguageSwitchingButton = false
-  disableNextPrev = true
   disableSeoHiddenPages = false
   disableMermaid = false
   #customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
