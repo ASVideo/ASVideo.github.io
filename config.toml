@@ -3,13 +3,13 @@ languageCode = 'zh-tw'
 defaultContentLanguage = "zh-tw"
 theme = "hugo-theme-relearn"
 title = 'Academia Sinica Video Archive'
-
+uglyURLs = false
 metaDataFormat = "yaml"
 # required for official documentation served from subfolder
 relativeURLs = false
-defaultContentLanguageInSubdir= false
+#defaultContentLanguageInSubdir= false
 
-[Params]
+[params]
   editURL = "https://github.com/ASVideo/ASVideo.github.io/tree/main/content/"
   description = "AIGC-based Video Archive @ Academia Sinica"
   author = "Ling-Jyh Chen"
