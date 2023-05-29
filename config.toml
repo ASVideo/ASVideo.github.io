@@ -19,12 +19,12 @@ defaultContentLanguageInSubdir= false
   disableSearchHiddenPages = false
   #collapsibleMenu = true
   disableBreadcrumb = false
-  disableNextPrev = false
+  disableNextPrev = true
   disableLandingPageButton = true
   disableLanguageSwitchingButton = false
   disableSeoHiddenPages = false
   disableMermaid = false
-  #additionalContentLanguage = [ "zh-tw"]
+  additionalContentLanguage = [ "zh-tw"]
   #customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   titleSeparator = "::"
 
