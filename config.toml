@@ -30,7 +30,7 @@ defaultContentLanguageInSubdir= false
   author = "authors"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "SEARCH", "SEARCHPAGE"]
+  home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
 
 
 
