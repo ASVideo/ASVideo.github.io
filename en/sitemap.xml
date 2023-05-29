@@ -43,25 +43,11 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/2017/index.html" />
   </url>
   <url>
-    <loc>https://ASVideo.github.io/en/authors/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ASVideo.github.io/authors/index.html" />
-    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ASVideo.github.io/authors/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ASVideo.github.io/en/authors/index.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/authors/index.html" />
-  </url>
-  <url>
     <loc>https://ASVideo.github.io/en/categories/index.html</loc>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ASVideo.github.io/categories/index.html" />
     <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ASVideo.github.io/categories/index.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ASVideo.github.io/en/categories/index.html" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/categories/index.html" />
-  </url>
-  <url>
-    <loc>https://ASVideo.github.io/en/levels/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ASVideo.github.io/levels/index.html" />
-    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ASVideo.github.io/levels/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ASVideo.github.io/en/levels/index.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://ASVideo.github.io/ja/levels/index.html" />
   </url>
   <url>
     <loc>https://ASVideo.github.io/en/index.html</loc>

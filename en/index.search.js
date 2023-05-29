@@ -45,22 +45,8 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
-    "title": "Authors",
-    "uri": "/en/authors/index.html"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
     "title": "Categories",
     "uri": "/en/categories/index.html"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Levels",
-    "uri": "/en/levels/index.html"
   },
   {
     "content": "Acadeia Sinica Popular Science Video Archive ",

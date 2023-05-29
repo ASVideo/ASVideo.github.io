@@ -45,22 +45,8 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
-    "title": "Authors",
-    "uri": "/authors/index.html"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
     "title": "類別",
     "uri": "/categories/index.html"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Levels",
-    "uri": "/levels/index.html"
   },
   {
     "content": "",
