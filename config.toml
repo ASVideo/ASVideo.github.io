@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir= false
   disableLanguageSwitchingButton = false
   disableSeoHiddenPages = false
   disableMermaid = false
-  additionalContentLanguage = [ "en", "zh-tw"]
+  additionalContentLanguage = [ "zh-tw"]
   #customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   titleSeparator = "::"
 
