@@ -24,18 +24,12 @@ defaultContentLanguageInSubdir= false
   disableLanguageSwitchingButton = false
   disableSeoHiddenPages = false
   disableMermaid = false
-  additionalContentLanguage = [ "zh-tw"]
+  #additionalContentLanguage = [ "zh-tw"]
   #customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   titleSeparator = "::"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  level = "levels"
-  author = "authors"
-
 [outputs]
-  home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
+  home = ["HTML", "RSS", "PRINT", "SEARCH", "SEARCHPAGE"]
   section = ["HTML", "RSS", "PRINT"]
   page = ["HTML", "RSS", "PRINT"]
 
