@@ -24,14 +24,16 @@ relativeURLs = false
   disableLanguageSwitchingButton = false
   disableSeoHiddenPages = false
   disableMermaid = false
-  additionalContentLanguage = [ "en"]
+  #additionalContentLanguage = [ "en"]
   #customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   titleSeparator = "::"
 
 [outputs]
+  #home = ["HTML", "RSS", "JSON"]
+
   home = ["HTML", "RSS", "PRINT", "SEARCH", "SEARCHPAGE"]
-  section = ["HTML", "RSS", "PRINT"]
-  page = ["HTML", "RSS", "PRINT"]
+  #section = ["HTML", "RSS", "PRINT"]
+  #page = ["HTML", "RSS", "PRINT"]
 
 [module]
   [[module.mounts]]
@@ -78,7 +80,7 @@ relativeURLs = false
 title = "科普影音資料庫"
 weight = 1
 languageName = "中文"
-landingPageURL = "/"
+[languages.zh-tw.params]
 landingPageName = "<i class='fas fa-home'></i> 首頁"
 
 [[Languages.zh-tw.menu.shortcuts]]
@@ -92,7 +94,7 @@ weight = 10
 title = "Academia Sinica Popular Science Video Archive"
 weight = 2
 languageName = "English"
-landingPageURL = "/"
+[languages.en.params]
 landingPageName = "<i class='fas fa-home'></i> Home"
 
 [[Languages.en.menu.shortcuts]]
@@ -105,7 +107,7 @@ weight = 10
 title = "中央研究院の人気科学視聴覚データベース"
 weight = 3
 languageName = "日本語"
-landingPageURL = "/"
+[languages.ja.params]
 landingPageName = "<i class='fas fa-home'></i> Home"
 
 [[Languages.ja.menu.shortcuts]]
